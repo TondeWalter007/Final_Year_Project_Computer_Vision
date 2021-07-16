@@ -31,7 +31,7 @@ Due to the method used to capture the image of the urchin, the image consists of
 ### Colour Extraction
 K-Means algorithm was proposed as the method of extracting the colour of the spines from the image. The number of clusters that were chosen as the input for this algorithm was three, one for the background, and two for the colour of the spines. The output of this K-Means clustering algorithm was the RGB values of the centres of the predefined number of clusters. The color-extration algorithm put the three RGB values resulting from the K-Means algorithm into a bar graph in order to visualize the colours extracted and their respective percentage of occurrence in the image. The colour which corresponds to the spine tips was then determined and extracted.
 
-[colorExtraction.py](colourExtraction.py) contains the colour extraction algorithm.
+[colorExtraction.py](colorExtraction.py) contains the colour extraction algorithm.
 
 ### Output
 The extracted spine tips colour value was then converted into the LAB colour space as this was the most exact means of representing colour and it is device independent. The colour value was then displayed on screen with the spine tips colour as the background alongside the original input image
