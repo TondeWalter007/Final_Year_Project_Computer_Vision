@@ -18,6 +18,7 @@ The program takes in a single-colour image as an input using OpenCV. The image i
 YOLOv3 detection model was used to train the dataset to detect the sea urchin. An urchin detection weight file, configuration file, and name file were produced during the process. The program detects and isolates the sea urchin from the rest of the image. The sea urchin is then cropped out of the image and passed into the next subcomponent.
 
 The urchin detection weight file can be found on my google drive: https://drive.google.com/file/d/1A9S8BOzPc5fMzhI3G6wOc1dArV41gs0G/view?usp=sharing
+
 [urchinDetector.py](urchinDetector.py) contains the object detection algorithm.
 
 ### Image Segmentation
